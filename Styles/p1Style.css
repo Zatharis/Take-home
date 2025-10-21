@@ -1,0 +1,58 @@
+nav ul {
+    list-style-type: none;
+    background: linear-gradient(to right, #720086, #cc99ff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(171, 171, 171);
+}
+
+/* Two-column layout */
+main section {
+    padding: 20px;
+}
+
+/* Image floats left, text wraps */
+main img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Text next to image */
+main h1 {
+    font-family: 'Georgia', serif;
+    color: #663399;
+}
+
+main p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+}
