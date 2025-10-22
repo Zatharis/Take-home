@@ -1,6 +1,6 @@
 nav ul {
     list-style-type: none;
-    background: linear-gradient(to right, #720086, #cc99ff);
+    background: linear-gradient(to right,  #515151, #9c0303);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -22,3 +22,4 @@ nav a {
 nav a:hover {
     background-color: rgb(171, 171, 171);
 }
+

@@ -1,6 +1,6 @@
 nav ul {
     list-style-type: none;
-    background: linear-gradient(to right, #720086, #cc99ff);
+    background: linear-gradient(to right, #515151, #9c0303);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -42,12 +42,11 @@ main img {
 /* Text next to image */
 main h1 {
     font-family: 'Georgia', serif;
-    color: #663399;
+    color: #c1c1c1;
 }
 
 main p {
-    color: #333;
-    line-height: 1.5;
+    color: #c1c1c1;
 }
 
 /* Footer */
@@ -56,4 +55,7 @@ footer {
     background-color: lightgray;
     padding: 10px;
     margin-top: 20px;
+}
+body {
+    background-color: #515151;
 }
