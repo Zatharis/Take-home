@@ -9,6 +9,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 0;
+    font-family: "OpenDyslexic", sans-serif;
 }
 
 nav a {
@@ -16,7 +17,7 @@ nav a {
     padding: 1em;
     color: white;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bold; font-style: italic;
 }
 
 nav a:hover {
@@ -49,4 +50,14 @@ li a:hover {
 
 body {
     background-color: #515151;
+}
+
+footer {
+    position: fixed;
+    border-top: 1px;
+    bottom : 0;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px 0;
 }
