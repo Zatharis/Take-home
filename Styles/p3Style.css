@@ -23,6 +23,10 @@ nav a:hover {
     background-color: rgb(171, 171, 171);
 }
 
+h1 {
+    color:#c1c1c1
+}
+
 ol {
   list-style-type: decimal;
   margin-left: 50px;
@@ -30,12 +34,19 @@ ol {
 }
 
 li {
-  color: rgb(194, 32, 212);
+  color: #c1c1c1;
   font-size: 1.1em;
   margin: 0 0 5px 0;
 }
 
+li a:link {
+    color:#c1c1c1
+}
+
 li a:hover {
   text-decoration: none;
+}
 
+body {
+    background-color: #515151;
 }

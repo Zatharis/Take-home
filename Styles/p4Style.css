@@ -23,3 +23,22 @@ nav a:hover {
     background-color: rgb(171, 171, 171);
 }
 
+main article:nth-of-type(1){
+    color: #059100;
+}
+
+main article strong{
+    font-size: 1.2em;
+}
+
+main article:nth-of-type(2){
+    color: #c1c1c1;
+}
+
+main article:nth-of-type(3){
+    color: #c1c1c1;
+}
+
+body {
+    background-color: #515151;
+}
